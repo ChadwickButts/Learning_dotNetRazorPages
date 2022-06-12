@@ -16,6 +16,8 @@ namespace RazorPagesMovie.Models
 
         [Column(TypeName = "deciaml(18,2)")]
 		public decimal Price { get; set; }
+
+		public string Rating { get; set; } = string.Empty;
 	}
 }
 
